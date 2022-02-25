@@ -1,0 +1,541 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A poem, occasioned by His Majesty's voyage to Holland, the congress at the Hague, and present siege of Mons written by N. Tate.</title>
+            <author>Tate, Nahum, 1652-1715.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1691</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 18 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A63073</idno>
+            <idno type="STC">Wing T205</idno>
+            <idno type="STC">ESTC R128</idno>
+            <idno type="EEBO-CITATION">11940721</idno>
+            <idno type="OCLC">ocm 11940721</idno>
+            <idno type="VID">51271</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A63073)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 51271)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 516:24)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A poem, occasioned by His Majesty's voyage to Holland, the congress at the Hague, and present siege of Mons written by N. Tate.</title>
+                  <author>Tate, Nahum, 1652-1715.</author>
+               </titleStmt>
+               <extent>15 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for Richard Baldwin ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1691.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>First edition.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>William --  III, --  King of England, 1650-1702 --  Poetry.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Sampled and proofread</change>
+         <change>
+            <date>2010-03</date>
+            <label>Mona Logarbo</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:51271:1"/>
+            <!-- PDF PAGE 99 -->
+            <pb facs="tcp:51271:1" rendition="simple:additions"/>
+            <!-- PDF PAGE 99 -->
+            <p>A POEM, Occaſioned by His Majeſty's Voyage TO HOLLAND, THE <hi>Congreſs at the Hague,</hi> AND Preſent SIEGE of MONS.</p>
+            <q xml:lang="lat">
+               <p>Non enim Res Geſtae <hi>Verſibus</hi> Comprehendendae ſunt quod longè melius <hi>Hiſtorici</hi> faciunt, ſed per <hi>Ambages</hi> &amp; <hi>Deorum Miniſteria,</hi> per <hi>fabulòſum</hi> ſenten<g ref="char:EOLhyphen"/>tiarum Tormentum praecipitandus eſt Liber Spiritus.</p>
+               <bibl>Petr. Arb.</bibl>
+            </q>
+            <p>Written by <hi>N. TATE.</hi>
+            </p>
+            <p>
+               <hi>LONDON:</hi> Printed for <hi>Richard Baldwin,</hi> near the <hi>Oxford Arms Inn</hi> in, <hi>Warwick-Lane.</hi> 1691.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <pb facs="tcp:51271:2"/>
+            <!-- PDF PAGE 100 -->
+            <pb n="3" facs="tcp:51271:2"/>
+            <!-- PDF PAGE 100 -->
+            <head>A POEM Occaſioned by His MAJESTY's Voyage TO HOLLAND, &amp;c.</head>
+            <lg>
+               <l>ON Sacred <hi>Iſis</hi> Bank, with Cares oppreſt,</l>
+               <l>One Noon <hi>Philander</hi> laid him down to Reſt;</l>
+               <l>Where having taſted the inſpiring Stream,</l>
+               <l>His Fancy form'd This Viſionary DREAM.</l>
+            </lg>
+            <lg>
+               <l>Down to <hi>Elyſian</hi> Groves He ſeem'd Convey'd,</l>
+               <l>Where Souls of Heroes and their Poets Stray'd:</l>
+               <l>Where <hi>Cowley</hi> with his wonted Candour ſmil'd,</l>
+               <l>Approacht the trembling Swain, and thus his Fears beguil'd.</l>
+            </lg>
+            <lg>
+               <pb n="4" facs="tcp:51271:3"/>
+               <!-- PDF PAGE 101 -->
+               <l>Zeal for the Muſes, and our <hi>Britain</hi>'s Peace,</l>
+               <l>Tranſports Thee to theſe Realms without Deceaſe.</l>
+               <l>The Leaden Star did o'er thy Birth preſide,</l>
+               <l>And to thy Soul the wiſh'd Embrace deny'd</l>
+               <l>Of Heavenly Muſe, forbid to wed her Flame,</l>
+               <l>With ought that <hi>Jove</hi> and <hi>Mercury</hi> diſclaim.</l>
+               <l>But for Thou long haſt waited on their Train,</l>
+               <l>For <hi>Britain</hi>'s Fortune throbb'd with reſtleſs Pain,</l>
+               <l>Fate grants Thee theſe eternal Seats to view,</l>
+               <l>And hear our <hi>Britiſh</hi> Bards their Songs renew.</l>
+            </lg>
+            <lg>
+               <l>On various Theams, immortal as our Joys,</l>
+               <l>Each, where his Genius calls, his Muſe employs.</l>
+               <l>Some trace myſterious Nature, and proceed</l>
+               <l>To ſing the Vital Elemental Seed;</l>
+               <l>Etherial Subſtance, unctuous liquid Fire,</l>
+               <l>Firſt Matter, through Still-changings Forms, intire.</l>
+               <l>Life's Principle that does its Beams diſperſe,</l>
+               <l>To Nouriſh and Cement the Univerſe.</l>
+               <lg>
+                  <l>Specifick Pow'r, that through Firſt Nature ran,</l>
+                  <l>That ſtill preſerves her Kinds as they began;</l>
+                  <l>It flouriſhes in Plants, and breathes in Man.</l>
+               </lg>
+               <l>Some ſing the Ebb and Flood's myſterious Cauſe,</l>
+               <l>If Moons to Seas or Seas to Moons give Laws,</l>
+               <l>Since mutual ſympathy their Courſes bear,</l>
+               <l>And to the Stars the Earth appears a Star.</l>
+               <l>
+                  <pb n="5" facs="tcp:51271:3"/>
+                  <!-- PDF PAGE 101 -->
+Some chooſe of Oceans Bitterneſs to treat,</l>
+               <l>From Beds of Salt beneath, or Solar Heat</l>
+               <l>That drinks their Dew, and of imbitter'd Tides</l>
+               <l>Repaſſing limpid through Earth's Sulph'rous ſides.</l>
+               <l>Why Winter-Suns ſo ſwift a Circuit go?</l>
+               <l>What makes the Steeds of Winter-Nights ſo ſlow.</l>
+            </lg>
+            <lg>
+               <l>Our Nobler Muſes, in Divine Abodes</l>
+               <l>Rank pious Heroes with their Kindred Gods;</l>
+               <l>Some our Fifth <hi>Harry</hi> and Third <hi>Edward</hi> raiſe,</l>
+               <l>But who has Breath for our Third <hi>WILLIAM</hi>'s Praiſe!</l>
+            </lg>
+            <lg>
+               <l>Behold where <hi>MILTON</hi> Bow'rd in Lawrel Groves,</l>
+               <l>A Task beyond his Warring Angels moves;</l>
+               <l>Himſelf a Seraph now, with ſacred flame</l>
+               <l>Draws Schemes proportion'd to great <hi>WILLIAM</hi>'s Pame;</l>
+               <l>(For Common-wealths no more his Harp he ſtrings,</l>
+               <l>By <hi>NASSAU</hi>'s Virtue Reconcil'd to Kings)</l>
+               <l>Ere long the Sacred Numbers He will joyn,</l>
+               <l>And bring his Heroe thund'ring to the <hi>Boyne.</hi>
+               </l>
+               <l>On liſtning bloodleſs Ghoſts Convulſions call,</l>
+               <l>When he deſcribes the Wound and Grazing Ball;</l>
+               <l>Then make Miſchance a Miracle diſpenſe,</l>
+               <l>And juſtify Suſpected Providence;</l>
+               <l>Shew how our Monarch's Danger had the odds</l>
+               <l>Of others Safety, for it prov'd the Gods.</l>
+               <l>
+                  <pb n="6" facs="tcp:51271:4"/>
+                  <!-- PDF PAGE 102 -->
+Theſe Theams the Bard ſhall ſing.</l>
+               <l>The Roſes Dew exhaling with his Strains,</l>
+               <l>The Food of Ghoſts throughout theſe happy Plains.</l>
+            </lg>
+            <lg>
+               <l>Happy indeed, <hi>Philander</hi> then repli'd,</l>
+               <l>Where <hi>Cowley</hi> and the tuneful Tribe reſide;</l>
+               <l>Nor yet to know great <hi>William</hi>'s Deeds deni'd.</l>
+            </lg>
+            <lg>
+               <l>The Power indulg'd to Souls from Bodies free,</l>
+               <l>(The Bard rejoin'd) Thou ſhalt (aſtoniſh'd) ſee.</l>
+               <l>A Viſionary Scene thou ſhalt perceive,</l>
+               <l>Of what will Doubts on after Ages leave,</l>
+               <l>And ſcarce its own Spectators could believe.</l>
+            </lg>
+            <lg>
+               <l>Then wav'd his Wand, and through th' Elyſian Field</l>
+               <l>Of <hi>EUROPE</hi> did an opening Proſpect yield.</l>
+            </lg>
+            <lg>
+               <l>Firſt, let the <hi>Belgian</hi> Shore attract thine Eye,</l>
+               <l>A diſtant Fleet, and open Shaloup nigh.</l>
+               <l>Can Heaven ſuſtain to ſee a ſlender Boat</l>
+               <l>Charg'd with the Fortune of all <hi>Europe,</hi> Float?</l>
+               <l>Our <hi>Caeſar</hi> ſee ſo dangerouſly Embarque</l>
+               <l>The World's Reſtorer in ſo frail an Ark,</l>
+               <l>Seven Worthies more, though ſafe our <hi>Caeſar</hi> were,</l>
+               <l>Too rich a Prize to be entruſted There.</l>
+               <l>
+                  <pb n="7" facs="tcp:51271:4"/>
+                  <!-- PDF PAGE 102 -->
+Illuſtrious <hi>Norfolk</hi> dignified to ſhine</l>
+               <l>In Honours Van, and grace her eldeſt Line.</l>
+               <l>
+                  <hi>Ormond</hi> and <hi>Oſſery</hi>'s reſembling Heir</l>
+               <l>Alone might challenge Providence's Care;</l>
+               <lg>
+                  <l>
+                     <hi>Minerva</hi>'s Favourite, <hi>Monmouth,</hi> Learn'd and Brave,</l>
+                  <l>Two Chiefs beſide, who proofs of Honour gave</l>
+                  <l>In foreign Fields, and <hi>Britain</hi> came to ſave.</l>
+               </lg>
+               <l>My <hi>Dorſet</hi> too his Monarch's Danger ſhares,</l>
+               <l>Cleaves to his Breaſt for whom alone he fears.</l>
+               <l>See where the panting Muſes through the Air</l>
+               <l>From <hi>Pindus</hi> to their Patron's aid repair,</l>
+               <l>His Merits plead, and Setting <hi>Phoebus</hi> pray</l>
+               <l>To own his Darling and prolong the Day.</l>
+               <l>Thick riſing Miſts, of Both bereave their ſight.</l>
+               <l>Expoſe the ſlender Boat to Ice and Night.</l>
+               <l>They raſhly Curſe the guiltleſs God's Deſcent,</l>
+               <l>Nor yet had learnt what his Departure meant;</l>
+               <l>How <hi>AEol</hi> He, and <hi>Neptune</hi> firſt did charge,</l>
+               <l>To calm the Deep, and leave no Wind at large;</l>
+               <l>Till gently He next Morn the Fogs ſhould drive,</l>
+               <l>More welcome make th' endanger'd King Arrive,</l>
+               <l>To ſhew for what Atchievements He was Born,</l>
+               <l>Who Death and Danger in all ſhapes could ſcorn.</l>
+            </lg>
+            <lg>
+               <pb n="8" facs="tcp:51271:5"/>
+               <!-- PDF PAGE 103 -->
+               <lg>
+                  <l>From Fleet, from Shore, the anxious Crowds did gaze</l>
+                  <l>When <hi>Europe</hi>'s Hope they ſaw no longer blaze,</l>
+                  <l>In Darkneſs hid, loſt in an Icy Maze;</l>
+               </lg>
+               <l>The Fate of new-built <hi>Rome</hi>'s firſt King they fear,</l>
+               <l>That envious Skies had ſnatch'd him for a Star.</l>
+               <l>They Mourn all Night, each glimmering Star appears</l>
+               <l>A Taper lit for Their great Maſter's Hearſe.</l>
+            </lg>
+            <lg>
+               <l>With ſuch Concern our fond firſt Parent view'd</l>
+               <l>The firſt Day's Sun, and with fix'd Eyes purſu'd;</l>
+               <l>When loſt in Miſts, or ſunk beneath the Main</l>
+               <l>He fondly judg'd him; ſo did He complain!</l>
+               <l>Outwept the Night-Dew with diſtilling Eyes,</l>
+               <l>No Hope conceiv'd that He again would Riſe.</l>
+               <lg>
+                  <l>Where Day He loſt, all wrapt in Sables deep,</l>
+                  <l>Still Weſtward fix'd, His Looks ſad <hi>Vigills</hi> keep,</l>
+                  <l>Not knowing yet the Night was made for Sleep.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>Now to the ſhining <hi>Hague</hi> direct your ſight,</l>
+               <l>(The Bard proceeds) not <hi>Sparta</hi> ſhone ſo bright</l>
+               <l>When raviſh'd <hi>Helen</hi> (Type of injur'd Peace)</l>
+               <l>In Conſult drew the Potentates of <hi>Greece:</hi>
+               </l>
+               <l>And now the Royal Congreſs to compleat,</l>
+               <l>Behold, like <hi>Jove,</hi> our Monarch takes His Seat.</l>
+               <l>
+                  <pb n="9" facs="tcp:51271:5"/>
+                  <!-- PDF PAGE 103 -->
+Each Prince ſome other views with ſilent Joy,</l>
+               <l>And mutual Wonder does their Souls employ:</l>
+               <l>So Heav'ns firſt Stars each others Flames admir'd,</l>
+               <l>But more the <hi>Sun</hi> who all their Beams inſpir'd.</l>
+               <l>
+                  <hi>Bavaria</hi> firſt to Him ſubmits his Rays,</l>
+               <l>And for Direction from his Influence prays,</l>
+               <l>The Reſt of Courſe—To Counſel they Retire.</l>
+               <l>Here ſtop thy curious Search—</l>
+               <l>What Gods Decree no Mortal muſt enquire:</l>
+               <l>Suffice it that for <hi>Europe</hi> they prepare</l>
+               <l>Saturnian Days; ſee where the Golden Year</l>
+               <l>Stands ready Harneſs'd—Weſtward turn your Eye,</l>
+               <l>And Gallick <hi>Nero</hi>'s laſt Convulſions Spy;</l>
+               <lg>
+                  <l>Like Downcaſt Lucifer revolves his State,</l>
+                  <l>With his fall'n Angels ſits in Dark Debate,</l>
+                  <l>And from This Conſtellation bodes his Fate.</l>
+               </lg>
+            </lg>
+            <lg>
+               <l>He ſaid, and once again his Wand did wave,</l>
+               <l>And once again th'<hi>Elyſian</hi> Proſpect gave;</l>
+               <l>The Swain, tranſported, kiſs'd the Sacred Ground,</l>
+               <l>And caſt anew his raviſh'd Eyes around;</l>
+               <l>He ſaw where Swarming Souls to <hi>Lethe</hi> preſs</l>
+               <l>To drink large Draughts of deep Forgetfulneſs;</l>
+               <l>Amongſt themſelves (ah vain Deſire!) at Strife,</l>
+               <l>Ambitious to repeat the Toils of Life.</l>
+               <l>
+                  <pb n="10" facs="tcp:51271:6"/>
+                  <!-- PDF PAGE 104 -->
+The Myrtle Grove where Lovers once Diſtreſs'd,</l>
+               <l>Secure from Fate in wiſh'd Embraces reſt:</l>
+               <l>Of Virgin Souls the Receptacles mild,</l>
+               <l>Who Death embrac'd and Tyrants Luſt beguil'd:</l>
+               <l>For Studious Minds bright Manſions ſet apart,</l>
+               <l>Who Life adorn'd with any uſeful Art.</l>
+            </lg>
+            <lg>
+               <l>By chance a rev'rend Shade of Royal Meen</l>
+               <l>He ſpies, ſtretch'd Muſing on a Silent Green;</l>
+               <l>Charm'd with the Figure (on his either ſide</l>
+               <l>Lay Heaps of Trophies) he conſults his Guide;</l>
+               <l>Enquires the Hero's Name, for from his Face</l>
+               <l>Seraphick Joy beam'd through the Dusky Place.</l>
+            </lg>
+            <lg>
+               <l>The Bard as with a ſudden Rapture ſtruck,</l>
+               <l>A while ſtood Mute, at length thus (warmly) ſpoke.</l>
+            </lg>
+            <lg>
+               <l>Moſt Monarchs think the Regal Task is done,</l>
+               <l>If once the Pageants can but Stuff a Throne;</l>
+               <lg>
+                  <l>Once to the Belfry of a State can climb,</l>
+                  <l>No Wheels to move, but Image-like to Chime,</l>
+                  <l>And with an idle Sceptre ſtrike the Time.</l>
+               </lg>
+               <l>But Tyrants ſtill are worſe—and ſtupid Frogs,</l>
+               <l>By Cranes devour'd, can call again for Logs.</l>
+            </lg>
+            <lg>
+               <pb n="11" facs="tcp:51271:6"/>
+               <!-- PDF PAGE 104 -->
+               <l>Bleſs'd Nations who can brave <hi>RESTORERS</hi> find,</l>
+               <l>Bold to the Foe, and to their Subjects kind!</l>
+               <l>Who Empire but for Pious Ends receive,</l>
+               <l>Who War for Peace, and Conquer to Relieve.</l>
+               <l>
+                  <hi>A RACE</hi> of ſuch Succeſſively to Shine,</l>
+               <l>Fate ne'er allow'd but to<note n="*" place="margin">One of His Majeſty's Ance<g ref="char:EOLhyphen"/>ſtors formerly Emperor of <hi>Germany.</hi>
+                  </note>
+                  <hi>ADOLPH<g ref="char:V">Ʋ</g>S</hi> Line:</l>
+               <l>'Tis his pleas'd Shade that Glitters in yon Vale,</l>
+               <l>Where of his Off-ſpring he recounts the Tale;</l>
+               <l>Numbers their Perſons, does their Conqueſts State,</l>
+               <l>Their Deeds, their Sufferings, Fortunes and their Fate.</l>
+               <l>Through long Deſcents of ſtill untainted Fame,</l>
+               <l>Ev'n now he dwells on Preſent <hi>WILLIAM</hi>'s Name;</l>
+               <l>A Name that makes the unborn Years to ſpring</l>
+               <l>In Fate's dark Womb, and clap their unfledg'd wing.</l>
+               <l>Column of Piety, and Honours Prop,</l>
+               <l>Late reſcu'd <hi>Albion</hi>'s Joy, all <hi>Europe</hi>'s Hope:</l>
+               <lg>
+                  <l>Him diſtant Nations call with out-ſtretch'd Hands,</l>
+                  <l>Like longing Ghoſts on black <hi>Cocytus</hi> Strands,</l>
+                  <l>For waftage o'er to our <hi>Elyſian</hi> Lands.</l>
+               </lg>
+               <l>Laſt Cordial, He, to make their Hopes revive,</l>
+               <l>And keep their Gaſping Liberty alive,</l>
+               <l>Toils he ſuſtains, like thoſe <hi>Alcides</hi> bore,</l>
+               <l>And like <hi>Alcides</hi> only to Reſtore</l>
+               <l>The Sick World's Reſt—</l>
+               <l>Reſerv'd by Fate to enter Fame's laſt Stage,</l>
+               <l>To Vanquiſh and Reform an Impious Age:</l>
+               <l>
+                  <pb n="12" facs="tcp:51271:7"/>
+                  <!-- PDF PAGE 105 -->
+Monſters to Quell, and clip fell Dragons wings,</l>
+               <l>Crown'd Baſilisks diſarming of their Stings:</l>
+               <l>Reſtores ſtol'n Jewels to their proper Crown,</l>
+               <l>And Scorns no leſs to Buy than Sell Renown.</l>
+               <l>Unbeaten Paths direct to Honours Heights,</l>
+               <l>His Swords cuts out, and ne'er by Proxy Fights;</l>
+               <l>But ever Lightning in the foremoſt Band,</l>
+               <l>His Honours Harveſt reaps with his own Hand.</l>
+            </lg>
+            <lg>
+               <l>But ſee the Skies bear down, a ſudden Breeze</l>
+               <l>With Spicy whiſpers wakes the Nodding Trees</l>
+               <l>On <hi>Lethe</hi>'s Bank—Now, Sweeter Notes rebound,</l>
+               <l>'Tis <hi>Waller</hi>'s Harp, I know the Melting Sound;</l>
+               <l>The Harp that once his <hi>Sachariſſa</hi> Sung,</l>
+               <l>And Charm'd your World, the Same, but here new Strung;</l>
+               <l>Does here his <hi>Sachariſſa</hi>'s Praiſe refuſe,</l>
+               <l>To <hi>Britains</hi> Goddeſs conſecrates his Muſe:</l>
+               <l>Now Sings <hi>MARIA,</hi> whoſe Diviner Frame,</l>
+               <l>Refines his Paſſion to Seraphick Flame.</l>
+               <lg>
+                  <l>For Her he does his Rich Conceptions lay</l>
+                  <l>In Judgment deep, but when they ſee the Day</l>
+                  <l>Pure and Tranſparent as ſlow <hi>China</hi>'s Clay;</l>
+               </lg>
+               <lg>
+                  <l>For her the Spangled Firmament is ſpread,</l>
+                  <l>For her Chaſt <hi>Cupids</hi> reap th'<hi>Elyſian</hi> Mead,</l>
+                  <l>And weave eternal Chaplets for her Head.</l>
+               </lg>
+               <l>
+                  <pb n="13" facs="tcp:51271:7"/>
+                  <!-- PDF PAGE 105 -->
+Day ſhines for Her, and let her tread the Night,</l>
+               <l>Deſcending Stars ſhall pave her walks with Light:</l>
+               <lg>
+                  <l>Like <hi>Cintbia</hi> let her guild the Sea with Beams,</l>
+                  <l>The Slumb'ring <hi>Nereids</hi> ſtarting from their Dreams,</l>
+                  <l>Shall catch at her bright Image in the Streams.</l>
+               </lg>
+               <l>If ſuch her Form, what Herald ſhall we find</l>
+               <l>For the Immortal Blazon of her Mind;</l>
+               <l>The Cloyſter may learn Virtue from her Court,</l>
+               <l>Her Conſtancy can all Extreams ſupport;</l>
+               <lg>
+                  <l>Secure ſhe treads the Labyrinths of State,</l>
+                  <l>Nor ſervilely on Fortune's Smiles does wait,</l>
+                  <l>But Preſent to her Self, Commands her Fate.</l>
+               </lg>
+               <l>Our Eagle Abſent, ſhe protects her Seat,</l>
+               <l>Her Subject Brood from Gallick Vultures Threat;</l>
+               <l>So <hi>Pallas</hi> can far-warring <hi>Mars</hi> ſupply,</l>
+               <l>So <hi>Juno, Jove</hi> Abſenting, Rules the Sky.</l>
+            </lg>
+            <lg>
+               <l>The Trumpet Sounds, our Stragling Hero's Arm,</l>
+               <l>And to Imaginary Standards Swarm;</l>
+               <l>Still with bright Arms, ſlick Steeds, their former Care,</l>
+               <l>Delighted, and to frame fictitious War.</l>
+               <l>Now Modern Fights, then thoſe of former years,</l>
+               <l>
+                  <hi>Creſſey</hi> one day the Scene, the next <hi>Poictiers;</hi>
+               </l>
+               <l>By Lots diſtinguiſh'd they divide or joyn,</l>
+               <l>Now repreſent <hi>Seneff</hi> and then the <hi>Boyn.</hi>
+               </l>
+            </lg>
+            <lg>
+               <pb n="14" facs="tcp:51271:8"/>
+               <!-- PDF PAGE 106 -->
+               <l>See where a Viſionary <hi>MONS</hi> does riſe,</l>
+               <l>Beſieg'd, reduc'd to laſt Extremities;</l>
+               <l>To her Relief, a Hero young as day,</l>
+               <l>A Perſonated <hi>ORANGE</hi> wings his way,</l>
+               <l>Still Leading, ſtill inſtructing how to Dare,</l>
+               <l>He Blazes in the Forehead of the War:</l>
+               <l>Undaunted does on Breath of Cannons go,</l>
+               <l>
+                  <hi>And Conquers by Aſtoniſhing the Foe.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Now wrap'd in Smoak I ſee him ſtill perform</l>
+               <l>Freſh Wonders, and ſtill Lightning through the Storm;</l>
+               <l>Through Groves of Pikes, wide waſts of Death he hews,</l>
+               <l>O'er proſtrate Creſts and Shields the Foe purſues:</l>
+               <l>Their Trenches loſt, precipitating Fear</l>
+               <l>Drives back the Front on their Aſtoniſh'd Rear.</l>
+               <l>Turn <hi>Luxemberg,</hi> yield thy devoted Head,</l>
+               <l>For Mothers Tears and Blood of Infants ſhed;</l>
+               <l>Since ſoon or late Juſt Vengeance muſt take place,</l>
+               <l>An honourable Deſtiny embrace;</l>
+               <l>While great <hi>Naſſau</hi> calls out and bids Thee ſtand,</l>
+               <l>Conſult thy Fame, and Periſh by <hi>His</hi> Hand.</l>
+               <l>Thou Fly'ſt, perhaps, preſaging ſuch a Doom,</l>
+               <l>Through ſlow revolving Years too ſoon may come,</l>
+               <l>When Haughty <hi>Lewis</hi> ſhall repeat his Crime,</l>
+               <l>And Reſcu'd <hi>Mons</hi> Beſiege a ſecond time:</l>
+               <l>
+                  <pb n="15" facs="tcp:51271:8"/>
+                  <!-- PDF PAGE 106 -->
+What Fate Decrees, to bring her former Chief</l>
+               <l>He <hi>Perſeus</hi> wing'd <hi>once more</hi> to her Relief;</l>
+               <l>Or now Reſerves him for a deſp'rate Game,</l>
+               <l>Ev'n to Retrieve (if Loſt) the Captive Dame,</l>
+               <l>Let Time unfold—</l>
+            </lg>
+            <lg>
+               <l>Here from his Charming Dream <hi>Philander</hi> woke,</l>
+               <l>For Shouts and pealing Bells his Slumber broke:</l>
+               <l>The day he left ſo bright, he ſeeks in vain,</l>
+               <l>And wonders at the Moons untimely Wain.</l>
+               <l>Upſtarted now, on <hi>ISIS</hi> Bank he ſtood,</l>
+               <l>And ſaw (or ween'd) the Goddeſs of the Flood.</l>
+               <l>Hence, hence, ſhe cry'd, long ſince thy Fellow Swains,</l>
+               <l>Have litt their chearful Bonfires through the Plains.</l>
+               <l>From <hi>Belgia</hi>'s Shore our Patron's ſafe Return'd,</l>
+               <l>Too long theſe ſilent Banks his Abſence mourn'd:</l>
+               <l>The Altar Smoaks, thy Offering's ſtill delay'd,</l>
+               <l>'Tis more than time thy promis'd Vows were paid.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <p>☞ A Poem occaſioned by the Late Diſturbances and Diſcontents in the State: With Reflections on the Riſe and Progreſs of Prieſt-Craft.</p>
+            <byline>By <hi>N. Tate.</hi>
+            </byline>
+         </div>
+      </back>
+   </text>
+</TEI>
